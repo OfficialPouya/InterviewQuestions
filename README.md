@@ -4,7 +4,7 @@ These are some of the interview questions I was given in my coding interview.
 I have both C++ and Python examples. (I went back and did some problems for both) 
 
 # Demo
-I might create a series and walk through them on youtube. 
+I might create a series and walk-through them on youtube. 
 
 
 # Notice 
