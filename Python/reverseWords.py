@@ -1,4 +1,4 @@
-# Check if Palindrome
+# Check if the word backwards makes sense
 # https://www.dictionary.com/browse/nope?s=ts
 import requests
 from bs4 import BeautifulSoup
@@ -33,6 +33,6 @@ page_parse = BeautifulSoup(page.content, 'html.parser')
 all_table = page_parse.find(class_="css-7ac8yh e16867sm0")
 result = (all_table.get_text())
 if("No results found for" in result):
-	print(write, "is not a Palindrome")
+	print(write, "is backwards is not a valid")
 else:
-	print(write,"is a Palindrome")
+	print(write,"backwards is valid")
